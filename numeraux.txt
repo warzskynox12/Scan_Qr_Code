@@ -1,0 +1,23 @@
+                            Lego
+
+6458317749 ->         vraque           = 1001
+4577166280 ->        Gros lego         = 1002
+6175050565 -> //
+9162345951 -> vesseaux star wars neuf  = 1003
+4172867195 -> vesseaux star wars vieux = 1004
+1812243825 ->     camion de pompier    = 1005
+5228059996 -> //
+9663567776 ->     Bateaux de police    = 1006
+3188922428 -> vehicule cour poursuite  = 1007
+2983317321 ->     Creator 3 en 1       = 1008
+3457443474 -> //
+
+                            Playmobil
+
+2395919487 -> Lots de pompier          = 2001
+3466611791 -> chien et maitre          = 2002
+7795033214 -> camion de police         = 2003
+7363007762 ->     vraque               = 2004
+3882815918 ->   cage a lapin           = 2005
+8448567216 ->    trackeur              = 2006
+1576146521 ->    chevalier             = 2007
