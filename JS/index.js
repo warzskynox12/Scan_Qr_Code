@@ -101,7 +101,28 @@ var bouton = document.getElementById("monBouton");
 bouton.addEventListener("click", function() {
     // Récupérer la valeur saisie par l'utilisateur
     var valeurSaisie = champSaisie.value;
+    const idvente = {
+        '1001': 'QrCode31.html',
+        '1002': 'QrCode32.html',
+        '1003': 'QrCode36.html',
+        '1004': 'QrCode35.html',
+        '1005': 'QrCode39.html',
+        '1006': 'QrCode38.html',
+        '1007': 'QrCode43.html',
+        '1008': 'QrCode42.html',
 
-    // Utiliser la valeur saisie
-    console.log("La valeur saisie est : " + valeurSaisie);
+        '2001': 'QrCode28.html',
+        '2002': 'QrCode29.html',
+        '2003': 'QrCode26.html',
+        '2004': 'QrCode23.html',
+        '2005': 'QrCode25.html',
+        '2006': 'QrCode27.html',
+        '2007': 'QrCode52.html',
+    }
+    const pin = idvente[valeurSaisie];
+    if (page) {
+        window.location.href = `../Scan_Qr_Code/html/${pin}`;
+    } else {
+        console.log(`Code pin non reconnu : ${valeurSaisie}`);
+    }
 });
