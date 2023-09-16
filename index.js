@@ -79,6 +79,9 @@ startButton.addEventListener('click', () => {
         else if (result.text == '3882815918') {
             window.location.href = '../Scan_Qr_Code/qrcode/QrCode25.html'
         }
+        else if (result.text == '1576146521') {
+            window.location.href = '../Scan_Qr_Code/qrcode/QrCode52.html'
+        }
         else if (result.text == '8448567216') {
             window.location.href = '../Scan_Qr_Code/qrcode/QrCode26.html'
         }
@@ -264,6 +267,9 @@ codeReader.getVideoInputDevices().then((videoInputDevices) => {
                 }
                 else if (result.text == '3188922428') {
                     window.location.href = '../Scan_Qr_Code/qrcode/QrCode43.html'
+                }
+                else if (result.text == '1576146521') {
+                    window.location.href = '../Scan_Qr_Code/qrcode/QrCode52.html'
                 }
                 else if (result.text == '5387522983') {
                     window.location.href = '../Scan_Qr_Code/qrcode/QrCode45.html'
