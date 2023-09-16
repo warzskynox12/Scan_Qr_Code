@@ -120,7 +120,7 @@ bouton.addEventListener("click", function() {
         '2007': 'QrCode52.html',
     }
     const pin = idvente[valeurSaisie];
-    if (page) {
+    if (pin) {
         window.location.href = `../Scan_Qr_Code/html/${pin}`;
     } else {
         console.log(`Code pin non reconnu : ${valeurSaisie}`);
