@@ -148,7 +148,6 @@ startButton.addEventListener('click', () => {
         else if (result.text == '9432458742') {
             window.location.href = '../Scan_Qr_Code/qrcode/QrCode51.html'
         }
-        else { window.location.href = result.text; }; // Redirige vers l'URL du code QR
     });
 });
 codeReader.getVideoInputDevices().then((videoInputDevices) => {
@@ -224,7 +223,7 @@ codeReader.getVideoInputDevices().then((videoInputDevices) => {
                     window.location.href = '../Scan_Qr_Code/qrcode/QrCode25.html'
                 }
                 else if (result.text == '8448567216') {
-                    window.location.href = './qrcode/QrCode26.html'
+                    window.location.href = '../Scan_Qr_Code/qrcode/QrCode26.html'
                 }
                 else if (result.text == '7795033214') {
                     window.location.href = '../Scan_Qr_Code/qrcode/QrCode27.html'
@@ -292,7 +291,7 @@ codeReader.getVideoInputDevices().then((videoInputDevices) => {
                 else if (result.text == '9432458742') {
                     window.location.href = '../Scan_Qr_Code/qrcode/QrCode51.html'
                 }
-                else { window.location.href = result.text; }// Redirige vers l'URL du code QR
+                // Redirige vers l'URL du code QR
             }).catch((err) => {
                 console.error(err);
             });
