@@ -1,21 +1,41 @@
-body{
-    background-image: url(bgd.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 65%;
-    text-align: center;
-}
-f{
-    font-size: clamp(270%, 4vw, 690%);
-}
-g{
-    font-size: clamp(150%, 4vw, 450%);
-}
-a{
-    text-decoration: none;
-    color:black;
-    font-size: 20px;
-}
-#b{
-    margin:0px;
+body{
+
+    background-image: url(../public/bgd.png);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    margin-top: 65%;
+
+    text-align: center;
+
+}
+
+f{
+
+    font-size: clamp(270%, 4vw, 690%);
+
+}
+
+g{
+
+    font-size: clamp(150%, 4vw, 450%);
+
+}
+
+a{
+
+    text-decoration: none;
+
+    color:black;
+
+    font-size: 20px;
+
+}
+
+#b{
+
+    margin:0px;
+
 }
